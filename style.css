@@ -1,0 +1,34 @@
+body {
+	background-color: #C5BBEE;
+}
+
+#container {
+	background-color: #FFFEC5;
+	display: grid;
+	align-self: center;
+	width: 20rem;
+	max-width: 310px;
+	border-radius: 2%;
+	box-shadow: 4px 2px 4px #574F78;
+	padding: 1rem;
+	margin-top: 1rem;
+}
+
+#list-container {
+	align-content: left;
+	justify-content: left;
+}
+
+.list-li {
+	display: flex;
+	text-decoration: none;
+}
+
+.chlist {
+	padding: 0 20px 0 20px;
+}
+
+.btn-del {
+	display: flex;
+}
+
